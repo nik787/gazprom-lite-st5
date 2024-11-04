@@ -1,0 +1,42 @@
+.hero {
+    background-color: #F4F6FA;
+    margin-bottom: 100px;
+}
+
+.hero__wrapper {
+    padding: 70px 0;
+    display: flex;
+    align-items: center;
+    gap: 56px;
+}
+
+.hero__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.hero__text {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.hero__btn-wrapper {
+    display: flex;
+    gap: 16px;
+}
+
+.hero__download {
+    padding: 18px 32px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.hero__download--icon {
+    padding: 16px;
+}
+
+.hero__download-icon {
+    flex-shrink: 0;
+}

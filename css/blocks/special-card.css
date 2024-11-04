@@ -1,0 +1,53 @@
+.special-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 8px;
+  padding: 30px;
+  border-radius: 16px;
+  background: #F4F6FA;
+}
+
+.special-card--accent {
+  background-color: #5E81FF;
+  color: #fff;
+}
+
+.special-card__text {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.special-card__image {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.special-card__btn {
+  margin: auto 0 0 auto;
+  padding: 14px 12px 14px 13px;
+}
+
+.special-card__list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: inside;
+  list-style-position: outside;
+  padding-left: 8px;
+  padding-top: 3px;
+}
+
+.special-card__point {
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: 8px;
+}
+
+.special-card__point::marker {
+  margin: 8px;
+}
